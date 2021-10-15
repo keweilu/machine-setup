@@ -8,4 +8,6 @@ echo $MY_DIR
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   source  ${MY_DIR}/scripts/ubutun.sh
+elif [[ "$OS" == "mac"* ]]; then
+  source  ${MY_DIR}/scripts/macos.sh
 fi
