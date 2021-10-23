@@ -11,5 +11,7 @@ echo
 echo "Ensuring you have the latest Homebrew..."
 brew update
 
+brew tap homebrew/cask-versions
+
 echo "Cleaning up your Homebrew installation..."
 brew cleanup
